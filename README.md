@@ -5,7 +5,6 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Projects](#projects)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -13,17 +12,16 @@
 
 ## Introduction
 
-This repository showcases my journey through the Solana Turbin3 course. Each project folder contains the source code, configuration files, and detailed instructions on how to run and deploy the projects on the Solana blockchain.
+This repository showcases my journey through the Solana Turbin3 course. 
 
-## Projects
+Each project folder contains the source code, configuration files, and detailed instructions on how to run and deploy the projects on the Solana blockchain.
 
-This repository contains multiple projects that demonstrate various aspects of building decentralized applications on the Solana blockchain. Each project file includes detailed instructions on how to use and run the project. Please refer to the respective project files for more information on setup and usage.
-
+Have a look into the project files to see how you can work with them in the description on top.
 ## Setup
 
 To set up the [projects](#projects) in this repository, follow these steps:
 
-1. Fork this repository
+1. Fork the [solana-starter](https://github.com/Web3-Builders-Alliance/solana-starter) repository
 
 2. Clone the repository:
 
