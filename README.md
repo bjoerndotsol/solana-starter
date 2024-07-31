@@ -61,7 +61,10 @@ Contributions are welcome! If you have any suggestions or improvements, please o
 
 ## Getting started with your journey
 
-If you want to connect and learn more about web3 and solana development, make sure to follow [@superteamDE](https://x.com/SuperteamDE), [@solanaturbine](https://x.com/solanaturbine) and [@bjoerndotsol](https://x.com/bjoerndotsol).
+If you want to connect and learn more about web3 and solana development, make sure to follow: 
+- [@superteamDE](https://x.com/SuperteamDE)
+- [@solanaturbine](https://x.com/solanaturbine)
+- [@bjoerndotsol](https://x.com/bjoerndotsol)
 
 ## License
 
