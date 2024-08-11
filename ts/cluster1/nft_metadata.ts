@@ -1,3 +1,27 @@
+/**
+ * This script uploads NFT metadata to Arweave.
+ *
+ * The script performs the following steps:
+ * 1. Imports necessary modules and wallet information.
+ * 2. Creates a UMI instance connected to Solana devnet.
+ * 3. Sets up the signer using the wallet's keypair.
+ * 4. Prepares the NFT metadata following the Metaplex standard.
+ * 5. Uploads the metadata to Arweave.
+ * 6. Logs the uploaded metadata URI to the console.
+ *
+ * Usage:
+ * 1. Ensure you have your wallet's secret key in the `ts/wba-wallet.json` file.
+ * 2. Make sure you have already uploaded the NFT image and have its URI.
+ * 3. Navigate to the project folder:
+ *    ```bash
+ *    cd ts/cluster1
+ *    ```
+ * 4. Run the script using yarn:
+ *    ```bash
+ *    yarn nft_metadata
+ *    ```
+ */
+
 import wallet from "../wba-wallet.json";
 import { createUmi } from "@metaplex-foundation/umi-bundle-defaults";
 import {
@@ -31,6 +55,9 @@ umi.use(signerIdentity(signer));
       attributes: [
         { trait_type: "rug level", value: "8/10" },
         { trait_type: "trust level", value: "0/10" },
+        { trait_type: "pattern", value: "pixelated" },
+        { trait_type: "border style", value: "purple" },
+        { trait_type: "origin", value: "marrakesh" },
       ],
       properties: {
         files: [
