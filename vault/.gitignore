@@ -1,0 +1,46 @@
+# Rust build artifacts
+/target/
+
+# Cargo lock file (uncomment if you want to ignore it)
+# Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Solana program build artifacts
+*.so
+
+# Node.js dependencies
+node_modules/
+
+# TypeScript build artifacts
+dist/
+
+# Logs
+*.log
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Anchor.toml (if using Anchor framework)
+Anchor.toml
+
+# Solana wallet files (be cautious with these!)
+*.json
+
+# Any other project-specific files or directories to ignore

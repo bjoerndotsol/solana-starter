@@ -21,7 +21,8 @@ Have a look into the project files to see how you can work with them in the desc
 
 ## Projects
 
-- [ts](./ts): First projects at the beginning of the course
+- [Starter](./starter/ts): First projects at the beginning of the course
+- [Vault](./vault/): A simple vault program for depositing, withdrawing SOL, incl. closing
 
 ## Contributing
 
